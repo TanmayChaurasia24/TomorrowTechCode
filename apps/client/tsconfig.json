@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,          // Required for project references
+    "incremental": true,         // Enables faster rebuilds
+    "outDir": "./dist",          // Output directory for compiled files
+    "rootDir": "./src"           // Specifies the root directory for input files
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
